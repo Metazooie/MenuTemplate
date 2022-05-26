@@ -3,6 +3,13 @@
 	"EngineAssociation": "4.27",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "UltimateMenuSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "CleanProject",
@@ -11,6 +18,10 @@
 		},
 		{
 			"Name": "PixelStreaming",
+			"Enabled": true
+		},
+		{
+			"Name": "PureWeb",
 			"Enabled": true
 		}
 	]
